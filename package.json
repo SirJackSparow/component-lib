@@ -1,8 +1,8 @@
 {
-  "name": "component-lib",
-  "version": "0.1.0",
+  "name": "component-lib-nomatter-nodle",
+  "version": "1.0.0",
   "description": "The Component for Design",
-  "main": "build/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel lib -d build",
@@ -33,8 +33,8 @@
     "eslint-watch": "^4.0.2",
     "polished": "^1.9.3",
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "styled-components": "^3.3.3"
   }
 }

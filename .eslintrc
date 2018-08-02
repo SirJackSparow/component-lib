@@ -8,8 +8,11 @@
   },
 
   "env": {
-    "es6": true,
-    "node": true
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "jest": true,
+      "node": true
   },
 
   "plugins": [
@@ -17,7 +20,8 @@
     "node",
     "promise",
     "standard",
-    "jsx-a11y"
+    "jsx-a11y",
+    "react"
   ],
 
   "globals": {
